@@ -17,7 +17,7 @@ public class Constans {
     //    查票日志
     public static final String QUERYLOG = "https://kyfw.12306.cn/otn/leftTicket/log";
     //    查票
-    public static final String QUERY = "https://kyfw.12306.cn/otn/leftTicket/queryT";
+    public static final String QUERY = "https://kyfw.12306.cn/otn/leftTicket/query";
     //    提交订单
     public static final String SUBMITORDER = "https://kyfw.12306.cn/otn/confirmPassenger/autoSubmitOrderRequest";
     //    查询余票数量

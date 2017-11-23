@@ -1,5 +1,6 @@
 package sample;
 
+// 查询条件bean
 public class Query {
 
     private String fromStation;

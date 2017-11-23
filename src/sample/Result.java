@@ -5,7 +5,7 @@ public class Result {
     private String validateMessagesShowId;
     private String status;
     private String httpstatus;
-    private Data data;
+    private Data data;//核心数据
     private String messages;
     private String validateMessages;
     private String result_message;
@@ -82,5 +82,20 @@ public class Result {
 
     public void setValidateMessages(String validateMessages) {
         this.validateMessages = validateMessages;
+    }
+
+    @Override
+    public String toString() {
+        return "Result{" +
+                "validateMessagesShowId='" + validateMessagesShowId + '\'' +
+                ", status='" + status + '\'' +
+                ", httpstatus='" + httpstatus + '\'' +
+                ", data=" + data +
+                ", messages='" + messages + '\'' +
+                ", validateMessages='" + validateMessages + '\'' +
+                ", result_message='" + result_message + '\'' +
+                ", result_code='" + result_code + '\'' +
+                ", uamtk='" + uamtk + '\'' +
+                '}';
     }
 }
